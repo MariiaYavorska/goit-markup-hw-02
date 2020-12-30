@@ -1,0 +1,177 @@
+/* delete default style*/
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color-black);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/*  Add document main colors*/
+:root {
+  --text-color-white: #ffffff;
+  --text-color-black: #212121;
+  --text-color-grey: #757575;
+  --accent-color: #2196f3;
+  --text-color-auth-nav: rgba(255, 255, 255, 0.6);
+  --text-color-black-logo: #000000;
+  --background-color-gray: #2f303a;
+  --background-color-bottom: #f5f4fa;
+  --border-color: #e5e5e5;
+}
+/* General styles for index.html page*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+  background-color: var(--text-color-white);
+}
+/* Header */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.studio-logo {
+  color: var(--text-color-black-logo);
+}
+.footer .studio-logo {
+  color: var(--text-color-white);
+}
+.current-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color-black);
+}
+.current-link:hover,
+.current-link:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.contact-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color-grey);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/* Hero*/
+.hero {
+  background-color: var(--background-color-gray);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color-white);
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color-white);
+  background-color: var(--accent-color);
+}
+/* Почему мы*/
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-color-black);
+}
+.benefits-text {
+  font-size: 14px;
+}
+/* Work field*/
+.work-process-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--text-color-black);
+}
+/* Our team*/
+.team {
+  background-color: var(--background-color-bottom);
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--text-color-black);
+}
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Footer */
+.footer {
+  background-color: var(--background-color-gray);
+}
+.footer-auth-nav .link-address {
+  font-style: normal;
+  color: var(--text-color-white);
+}
+.footer-auth-nav .footer-link {
+  font-style: normal;
+  color: var(--text-color-auth-nav);
+}
+/* General styles for portfolio.html page*/
+/* Main */
+.current-btn,
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.63;
+  text-align: center;
+  background-color: var(--background-color-bottom);
+}
+.current-btn,
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--text-color-white);
+}
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color-black);
+}
+.works-type {
+  font-size: 16px;
+  line-height: 1.88;
+}
