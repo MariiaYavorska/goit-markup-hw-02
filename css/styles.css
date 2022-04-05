@@ -95,6 +95,9 @@ body {
 	text-transform: uppercase;
 	color: var(--text-color-white);
 }
+.btn {
+	cursor: pointer;
+}
 .hero-btn {
 	font-weight: 700;
 	font-size: 16px;
@@ -105,6 +108,11 @@ body {
 	color: var(--text-color-white);
 	background-color: var(--accent-color);
 }
+.hero-btn:hover,
+.hero-btn:focus{
+background-color: #188CE8;
+}
+
 /* Почему мы*/
 .benefits-title {
 	font-weight: 700;
@@ -145,9 +153,22 @@ body {
 .footer {
 	background-color: var(--background-color-gray);
 }
+.auth-nav-footer{
+	font-style: normal;
+	color: var(--text-color-white);
+}
+
 .link-address {
 	font-style: normal;
 	color: var(--text-color-white);
+}
+.link-address:hover,
+.link-address:focus{
+	color: var(--accent-color);
+}
+.auth-nav-footer .footer-contact-link {
+	font-style: normal;
+	color: var(--text-color-auth-nav);
 }
 /* General styles for portfolio.html page*/
 /* Main */
