@@ -30,7 +30,6 @@ a {
 /* General styles for index.html page*/
 body {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -169,6 +168,10 @@ background-color: #188CE8;
 .auth-nav-footer .footer-contact-link {
 	font-style: normal;
 	color: var(--text-color-auth-nav);
+}
+.footer-contact-link:hover,
+.footer-contact-link:focus{
+	color: var(--accent-color);
 }
 /* General styles for portfolio.html page*/
 /* Main */
